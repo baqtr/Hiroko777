@@ -1,0 +1,7 @@
+build:
+  docker:
+    worker: Dockerfile
+    web: Dockerfile
+run:
+  worker: /app/start.sh
+  web: /app/start_web.sh
